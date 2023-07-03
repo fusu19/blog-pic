@@ -1,26 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T00:36:13.452Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jB7vhxYWA9RH6cstfPrT" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T00:48:02.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="c_8JwZisCvusr-QKPhur" version="21.5.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="989" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="8nelwR_O1WbiYXpUu97m-3" value="下位机1（电机）&lt;br&gt;通讯协议：Modbus" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="8nelwR_O1WbiYXpUu97m-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8nelwR_O1WbiYXpUu97m-3" target="8nelwR_O1WbiYXpUu97m-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="200" />
+              <mxPoint x="250" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8nelwR_O1WbiYXpUu97m-4" value="下位机2（电机）&lt;br&gt;通讯协议：Modbus" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="8nelwR_O1WbiYXpUu97m-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8nelwR_O1WbiYXpUu97m-3" target="8nelwR_O1WbiYXpUu97m-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.9999999999998" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="150" />
+              <mxPoint x="550" y="150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8nelwR_O1WbiYXpUu97m-5" value="主控MCU1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="8nelwR_O1WbiYXpUu97m-3" value="下位机1（电机）&lt;br&gt;通讯协议：Modbus" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8nelwR_O1WbiYXpUu97m-6" value="EC800E-CN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="8nelwR_O1WbiYXpUu97m-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8nelwR_O1WbiYXpUu97m-4" target="8nelwR_O1WbiYXpUu97m-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8nelwR_O1WbiYXpUu97m-7" value="主控MCU2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="8nelwR_O1WbiYXpUu97m-4" value="下位机N（电机）&lt;br&gt;通讯协议：Modbus" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8nelwR_O1WbiYXpUu97m-8" value="EC800E-CN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="8nelwR_O1WbiYXpUu97m-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8nelwR_O1WbiYXpUu97m-5" target="8nelwR_O1WbiYXpUu97m-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-5" value="主控MCU-1&lt;br&gt;负责协议转换/注册包发送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="170" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-6" value="EC800E-CN(1)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8nelwR_O1WbiYXpUu97m-7" target="8nelwR_O1WbiYXpUu97m-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-7" value="主控MCU-N&lt;br&gt;负责协议转换/注册包发送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-8" value="EC800E-CN(N)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-17" value="Modbus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="300.03" as="sourcePoint" />
+            <mxPoint x="280" y="300.03" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="300.03" />
+              <mxPoint x="260" y="300.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-25" value="Modbus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-27" value="直接透传，EC800-CN用TCP透传&lt;br&gt;此时 注册包 由 下位机 发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="90" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-28" value="直接透传，EC800-CN用TCP透传" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="360" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
