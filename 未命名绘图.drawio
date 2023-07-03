@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T01:04:27.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fn8BM4tK3WdP_Od8jc1U" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T01:06:49.719Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lr6ZQ-sknxm5r9KSgLgf" version="21.5.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1103" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1288" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -78,8 +78,8 @@
         <mxCell id="8nelwR_O1WbiYXpUu97m-28" value="直接透传，EC800-CN用TCP透传&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;此时 注册包 由 下位机 发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="520" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8nelwR_O1WbiYXpUu97m-33" value="上位机（屏幕）&lt;br&gt;通讯协议:Modbus&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;(带注册包)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="630" width="120" height="60" as="geometry" />
+        <mxCell id="8nelwR_O1WbiYXpUu97m-33" value="上位机（屏幕）&lt;br&gt;通讯协议:Modbus&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;(分析注册包)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="631" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8nelwR_O1WbiYXpUu97m-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8nelwR_O1WbiYXpUu97m-34" target="8nelwR_O1WbiYXpUu97m-44">
           <mxGeometry relative="1" as="geometry">
