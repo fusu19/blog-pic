@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T01:06:49.719Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lr6ZQ-sknxm5r9KSgLgf" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T01:08:05.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PtBRqbTZszW6-wbNkxmv" version="21.5.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1288" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
         <mxCell id="8nelwR_O1WbiYXpUu97m-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8nelwR_O1WbiYXpUu97m-44" target="8nelwR_O1WbiYXpUu97m-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8nelwR_O1WbiYXpUu97m-44" value="USR-DR154" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8nelwR_O1WbiYXpUu97m-44" value="EC800E-CN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8nelwR_O1WbiYXpUu97m-47" value="Modbus（带设备编号）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
