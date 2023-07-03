@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T01:08:05.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PtBRqbTZszW6-wbNkxmv" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T01:13:20.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CxbKAdbakLMATZ2OIKTG" version="21.5.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1288" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1522" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="8nelwR_O1WbiYXpUu97m-86" value="(TCP/IP)&lt;br&gt;/&lt;br&gt;(MQTT)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="670" y="610" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8nelwR_O1WbiYXpUu97m-87" value="例：&lt;br&gt;直接透传：上位机发送“01 02 03 04 05 06”的HEX数据，同时发送心跳包/注册包（带设备信息，对应标识设备），经过EC800E-CN透传成TCP/IP的数据经过服务器，服务器再转发至上位机，由上位机处理，并对应设备信息，来控制指定下位机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="740" width="710" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
